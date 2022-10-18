@@ -10,7 +10,7 @@ BEFORE running this script for the first time:
 
 If you're using MixItUp:
     Be sure you import the commands correctly and setup the other assets you might need.
-    I have included the GIFs and still image I made of the background so that it would just work BUT you might need to make further adjustments.
+    I have included the video files and GIF needed for the background. You will need to point the mix it up command to wherever you pulled/downloaded this repo to.
 
 I'm offering this with very limited support. I won't walk you through installing MixItUp or Python. Google has the answers you need for that.
 
