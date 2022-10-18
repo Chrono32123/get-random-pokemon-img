@@ -6,17 +6,21 @@ from PIL import Image
 ##Get Pokemon Image Script
 ##PURPOSE: Script to get Pokemon Name, Number, Official Art, and Generate Masked Art for stream overlays.
 ##AUTHOR: chrono
-##LAST UPDATED: 10-17-2022
+##LAST UPDATED: 10-18-2022
 ##Be sure to run pip install -r requirements.txt BEFORE running this!
 
 ##Image Cache Location (CHANGE THIS FOR YOUR SYSTEM)
-##propertyLoc = os.getcwd()
-propertyLoc = f"C:\streaming\Overlays\Pokemon Overlay\wtp"
+propertyLoc = os.getcwd()
+##propertyLoc = f"C:\streaming\Overlays\Pokemon Overlay\wtp"
 cache = f"{propertyLoc}/cache"
-imageLocation = ""
 
 ##Generate random number out of total number of pokemon
 pokeNum = random.randrange(1,906)
+
+##Cache folder setup - creates a cache folder in the same directory this script is run.
+def setupCache():
+    if not os.path.exists(cache):
+        os.mkdir(cache)
 
 ##Gets pokemon info from pokeapi - this number is used to name the image and text files generated and cached.
 def getPokemonInfo():
@@ -66,5 +70,7 @@ def hidePokemon(name, location):
         masked.putalpha(alpha)
         masked.save(filename)
 
+setupCache()
 getPokemonInfo()
 print(pokeNum) ##prints the national dex number for the pokemon so that MixItUp can read this value.
+print(propertyLoc)
