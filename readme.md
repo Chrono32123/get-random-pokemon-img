@@ -7,9 +7,10 @@ Thanks to the service provided by [PokeApi](https://pokeapi.co/).
 ## Python Requirements
 1. Python 3.10 (older versions of Python 3 might work?)
 2. Install the necessary python dependencies using pip install -r requirements.txt 
-    > **Dependencies Installed:**
-    > - Pillow
-    > - requests
+  \
+  **Dependencies Installed:**
+   - Pillow
+   - requests
 3. Update the cache folder location for the script on line 13 of getPokemonImg.py. *Skipping this step will cause you a headache because the cache folder doesn't exist*
 \
 **Change this line**
