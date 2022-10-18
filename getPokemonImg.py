@@ -17,7 +17,6 @@ imageLocation = ""
 
 ##Generate random number out of total number of pokemon
 pokeNum = random.randrange(1,906)
-##pokeNum = 555
 
 ##Gets pokemon info from pokeapi - this number is used to name the image and text files generated and cached.
 def getPokemonInfo():
