@@ -1,0 +1,3 @@
+#### Get Pokemon Image Requirements ####
+Pillow
+requests
