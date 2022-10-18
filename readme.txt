@@ -16,4 +16,4 @@ If there's something in the code or MIU commands that could be better feel free 
 You can find me on these platforms:
     YouTube: youtube.com/chrono32123
     Twitter: twitter.com/chrono32123
-    Discord: Chrono
+    Discord: Chrono#8297
