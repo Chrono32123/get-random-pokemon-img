@@ -10,15 +10,22 @@ from PIL import Image
 ##Be sure to run pip install -r requirements.txt BEFORE running this!
 
 ##Image Cache Location (CHANGE THIS FOR YOUR SYSTEM)
-propertyLoc = os.getcwd()
-##propertyLoc = f"C:\streaming\Overlays\Pokemon Overlay\wtp"
+propertyLoc = f"C:\streaming\scripts\get-pokemon-images"
 cache = f"{propertyLoc}/cache"
+
 
 ##Generate random number out of total number of pokemon
 pokeNum = random.randrange(1,906)
 
 ##Cache folder setup - creates a cache folder in the same directory this script is run.
 def setupCache():
+    filename = propertyLoc + "\output.txt"
+    if not os.path.isfile(filename):
+        file = open(filename, "w")
+        file.write(os.getcwd())
+        file.write(propertyLoc)
+        file.write(cache)
+        file.close()
     if not os.path.exists(cache):
         os.mkdir(cache)
 
@@ -73,4 +80,3 @@ def hidePokemon(name, location):
 setupCache()
 getPokemonInfo()
 print(pokeNum) ##prints the national dex number for the pokemon so that MixItUp can read this value.
-print(propertyLoc)

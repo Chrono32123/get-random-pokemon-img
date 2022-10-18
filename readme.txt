@@ -4,6 +4,9 @@ The idea isn't original but hopefully this implementation is.
 BEFORE running this script for the first time:
 1. Install Python 3.10 (that's what version I used when I wrote it but older versions MIGHT work?)
 2. Install the necessary python dependencies using pip install -r requirements.txt
+3. Update the cache folder location for the script on line 13 of getPokemonImg.py
+    Skipping this step will cause you a headache...
+    Running the script in MixItUp makes the os.getcwd() command point to the MixItUp appData folder instead of this script folder.
 
 If you're using MixItUp:
     Be sure you import the commands correctly and setup the other assets you might need.
