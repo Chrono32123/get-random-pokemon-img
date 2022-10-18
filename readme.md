@@ -20,8 +20,9 @@ Thanks to the service provided by [PokeApi](https://pokeapi.co/).
 ## Mix It Up Notes
 If you're using MixItUp:
     
-    - Be sure you import the commands correctly and setup the other assets you might need.
-    - I have included the video files and GIF needed for the background. You will need to point the mix it up command to wherever you pulled/downloaded this repo to.
+   - Be sure you import the commands correctly and setup the other assets you might need.
+   - I have included the video files and GIF needed for the background. 
+   - You will need to point the mix it up commands for the videos, GIF, and pokemon images to wherever you pulled/downloaded this repo to.
 
 ### I'm offering this with **limited support**. I won't walk you through installing MixItUp or Python. Google has the answers you need for that.
 \
