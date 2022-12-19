@@ -7,9 +7,10 @@ Thanks to the service provided by [PokeApi](https://pokeapi.co/).
 ## Python Requirements
 1. Python 3.10 (older versions of Python 3 might work?)
 2. Install the necessary python dependencies using pip install -r requirements.txt 
-    > **Dependencies Installed:**
-    > - Pillow
-    > - requests
+  \
+  **Dependencies Installed:**
+   - Pillow
+   - requests
 3. Update the cache folder location for the script on line 13 of getPokemonImg.py. *Skipping this step will cause you a headache because the cache folder doesn't exist*
 \
 **Change this line**
@@ -20,8 +21,9 @@ Thanks to the service provided by [PokeApi](https://pokeapi.co/).
 ## Mix It Up Notes
 If you're using MixItUp:
     
-    - Be sure you import the commands correctly and setup the other assets you might need.
-    - I have included the video files and GIF needed for the background. You will need to point the mix it up command to wherever you pulled/downloaded this repo to.
+   - Be sure you import the commands correctly and setup the other assets you might need.
+   - I have included the video files and GIF needed for the background. 
+   - You will need to point the mix it up commands for the videos, GIF, and pokemon images to wherever you pulled/downloaded this repo to.
 
 ### I'm offering this with **limited support**. I won't walk you through installing MixItUp or Python. Google has the answers you need for that.
 \
