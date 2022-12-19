@@ -16,6 +16,7 @@ cache = f"{scriptDir}/cache"
 
 ##Generate random number out of total number of pokemon
 pokeNum = random.randrange(1,906)
+# pokeNum = 25
 
 ##Cache folder setup - creates a cache folder in the same directory this script is run.
 def setupCache():
